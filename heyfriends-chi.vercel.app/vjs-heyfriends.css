@@ -1,0 +1,162 @@
+.vjs-heyfriends {
+    --vjs-heyfriends--primary: #FFFFFF;
+    --vjs-heyfriends--secondary: #102140
+}
+
+.vjs-heyfriends.vjs-big-play-button:focus,
+.vjs-heyfriends:hover .vjs-big-play-button {
+    width: 96px;
+    height: 96px;
+    background-color: transparent;
+    background: url('data:image/svg+xml,%3Csvg%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2096%2096%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M48%2096C74.5097%2096%2096%2074.5097%2096%2048C96%2021.4903%2074.5097%200%2048%200C21.4903%200%200%2021.4903%200%2048C0%2074.5097%2021.4903%2096%2048%2096ZM44%2061.8564L62%2051.4641C64.6667%2049.9245%2064.6667%2046.0755%2062%2044.5359L44%2034.1436C41.3333%2032.604%2038%2034.5285%2038%2037.6077V58.3923C38%2061.4715%2041.3333%2063.396%2044%2061.8564Z%22%20fill%3D%22%23CFDCFF%22%2F%3E%3C%2Fsvg%3E');
+}
+
+.vjs-heyfriends .vjs-big-play-button {
+    width: 96px;
+    height: 96px;
+    background: none;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background: url('data:image/svg+xml,%3Csvg%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2096%2096%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Ccircle%20cx%3D%2248%22%20cy%3D%2248%22%20r%3D%2248%22%20fill%3D%22%2330312C%22%2F%3E%3Cpath%20d%3D%22M62%2044.5359C64.6667%2046.0755%2064.6667%2049.9245%2062%2051.4641L44%2061.8564C41.3333%2063.396%2038%2061.4715%2038%2058.3923L38%2037.6077C38%2034.5285%2041.3333%2032.604%2044%2034.1436L62%2044.5359Z%22%20fill%3D%22%23BCB4F4%22%2F%3E%3C%2Fsvg%3E');
+    border: none;
+    top: 50%;
+    left: 50%;
+    margin-top: -48px;
+    margin-left: -48px;
+}
+
+.vjs-heyfriends .vjs-big-play-button .vjs-icon-placeholder {
+    display: none
+}
+
+.vjs-heyfriends .vjs-button>.vjs-icon-placeholder:before {
+    line-height: 1.55
+}
+
+.vjs-heyfriends .vjs-control:not(.vjs-disabled):not(.vjs-time-control):hover {
+    color: var(--vjs-heyfriends--primary);
+    text-shadow: var(--vjs-heyfriends--secondary) 1px 0 10px
+}
+
+.vjs-heyfriends .vjs-control-bar {
+    background: none;
+    margin-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em
+}
+
+.vjs-heyfriends .vjs-play-control {
+    font-size: .8em
+}
+
+.vjs-heyfriends .vjs-play-control .vjs-icon-placeholder:before {
+    background-color: var(--vjs-heyfriends--secondary);
+    height: 1.5em;
+    width: 1.5em;
+    margin-top: .2em;
+    border-radius: 1em;
+    color: var(--vjs-heyfriends--primary)
+}
+
+.vjs-heyfriends .vjs-play-control:hover .vjs-icon-placeholder:before {
+    background-color: var(--vjs-heyfriends--primary);
+    color: var(--vjs-heyfriends--secondary)
+}
+
+.vjs-heyfriends .vjs-mute-control {
+    display: none
+}
+
+.vjs-heyfriends .vjs-volume-panel {
+    margin-left: .5em;
+    margin-right: .5em;
+    padding-top: .3em
+}
+
+.vjs-heyfriends .vjs-volume-bar.vjs-slider-horizontal,
+.vjs-heyfriends .vjs-volume-panel,
+.vjs-heyfriends .vjs-volume-panel.vjs-volume-panel-horizontal.vjs-slider-active,
+.vjs-heyfriends .vjs-volume-panel.vjs-volume-panel-horizontal:hover,
+.vjs-heyfriends .vjs-volume-panel:active .vjs-volume-control.vjs-volume-horizontal,
+.vjs-heyfriends .vjs-volume-panel:hover,
+.vjs-heyfriends .vjs-volume-panel:hover .vjs-volume-control.vjs-volume-horizontal {
+    width: 3em
+}
+
+.vjs-heyfriends .vjs-volume-level:before {
+    font-size: 1em
+}
+
+.vjs-heyfriends .vjs-volume-panel .vjs-volume-control {
+    opacity: 1;
+    width: 100%;
+    height: 100%
+}
+
+.vjs-heyfriends .vjs-volume-bar {
+    background-color: transparent;
+    margin: 0
+}
+
+.vjs-heyfriends .vjs-slider-horizontal .vjs-volume-level {
+    height: 100%
+}
+
+.vjs-heyfriends .vjs-volume-bar.vjs-slider-horizontal {
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 100%
+}
+
+.vjs-heyfriends .vjs-volume-bar:before {
+    content: "";
+    z-index: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-left: 3em solid transparent;
+    border-bottom: 2em solid var(--vjs-heyfriends--primary);
+    border-right: 0 solid transparent;
+    border-top: 0 solid transparent
+}
+
+.vjs-heyfriends .vjs-volume-level {
+    overflow: hidden;
+    background-color: transparent
+}
+
+.vjs-heyfriends .vjs-volume-level:before {
+    content: "";
+    z-index: 1;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-left: 3em solid transparent;
+    border-bottom: 2em solid var(--vjs-heyfriends--secondary);
+    border-right: 0 solid transparent;
+    border-top: 0 solid transparent
+}
+
+.vjs-heyfriends .vjs-progress-control:hover .vjs-progress-holder {
+    font-size: 1em
+}
+
+.vjs-heyfriends .vjs-play-progress:before {
+    display: none
+}
+
+.vjs-heyfriends .vjs-progress-holder {
+    border-radius: .2em;
+    height: .5em;
+    margin: 0
+}
+
+.vjs-heyfriends .vjs-load-progress,
+.vjs-heyfriends .vjs-load-progress div,
+.vjs-heyfriends .vjs-play-progress {
+    border-radius: .2em
+}
